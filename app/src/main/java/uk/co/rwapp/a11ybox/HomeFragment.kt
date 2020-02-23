@@ -16,7 +16,6 @@ class HomeFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
@@ -28,6 +27,9 @@ class HomeFragment: Fragment() {
 
         important_for_accessibility_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.importantForAccessibilityFragment, null))
+
+        hint_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.hintFragment, null))
 
 
     }

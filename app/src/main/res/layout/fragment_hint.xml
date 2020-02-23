@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/content_description_button"
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/content_description_title" />
+        android:text="@string/hint_intro" />
+
+<!--    Listing 4-5 -->
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_button"
+        android:hint="@string/hint_button_hint" />
 
     <Button
-        android:id="@+id/important_for_accessibility_button"
+        android:id="@+id/hintButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/important_for_accessibility_title" />
+        android:text="@string/hint_button" />
 
-    <Button
-        android:id="@+id/hint_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hint_title" />
 </LinearLayout>
