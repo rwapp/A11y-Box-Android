@@ -16,5 +16,9 @@
     <string name="heading_title">Heading</string>
     <string name="heading_intro">Headings let TalkBack customers quickly skip blocks of content.</string>
     <string name="heading_heading">This is a heading</string>
+    <string name="minimum_size_title">Minimum Size</string>
+    <string name="minimum_size_button_description">Close</string>
+    <string name="minimum_size_example">The bottom button has no minimum size set.</string>
+    <string name="minimum_size_intro">Minimum size lets you ensure your controls will always be large enough to tap.</string>
 
 </resources>

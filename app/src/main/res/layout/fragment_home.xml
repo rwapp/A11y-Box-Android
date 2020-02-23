@@ -26,4 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/heading_title" />
+
+    <Button
+        android:id="@+id/minimum_size_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minimum_size_title" />
 </LinearLayout>

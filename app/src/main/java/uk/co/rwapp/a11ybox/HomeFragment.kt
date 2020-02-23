@@ -34,6 +34,9 @@ class HomeFragment: Fragment() {
         heading_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.headingFragment, null))
 
+        minimum_size_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.minimumSizeFragment, null))
+
 
     }
 }

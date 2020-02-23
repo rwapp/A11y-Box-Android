@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_homeFragment_to_headingFragment"
             app:destination="@id/headingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_minimumSizeFragment"
+            app:destination="@id/minimumSizeFragment" />
     </fragment>
     <fragment
         android:id="@+id/importantForAccessibilityFragment"
@@ -36,4 +39,8 @@
         android:id="@+id/headingFragment"
         android:name="uk.co.rwapp.a11ybox.headingFragment"
         android:label="Heading" />
+    <fragment
+        android:id="@+id/minimumSizeFragment"
+        android:name="uk.co.rwapp.a11ybox.MinimumSizeFragment"
+        android:label="Minimum Size" />
 </navigation>
