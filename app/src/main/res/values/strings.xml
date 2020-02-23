@@ -13,5 +13,8 @@
     <string name="hint_button_hint">Sends your message.</string>
     <string name="hint_intro">Hints add extra context to a control.</string>
     <string name="hint_title">Hint</string>
+    <string name="heading_title">Heading</string>
+    <string name="heading_intro">Headings let TalkBack customers quickly skip blocks of content.</string>
+    <string name="heading_heading">This is a heading</string>
 
 </resources>
