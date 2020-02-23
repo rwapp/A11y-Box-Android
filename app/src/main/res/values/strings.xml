@@ -5,5 +5,9 @@
     <string name="content_description_button_content_description">Submit</string>
     <string name="content_description_title">Content Description</string>
     <string name="content_description_example">The buttons below have the content description of Submit.</string>
+    <string name="important_intro">Elements can be set as not important for accessibility to hide them from assistive technologies.</string>
+    <string name="important_example">The buttons below aren\'t visible to TalkBack.</string>
+    <string name="important_button_title">Go</string>
+    <string name="important_for_accessibility_title">Important For Accessibility</string>
 
 </resources>
