@@ -39,6 +39,9 @@ class HomeFragment: Fragment() {
         label_for_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.labelForFragment, null))
 
+        traversal_order_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.traversalOrderFragment, null))
+
 
     }
 }

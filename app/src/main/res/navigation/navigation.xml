@@ -29,6 +29,9 @@
         <action
             android:id="@+id/action_homeFragment_to_labelForFragment"
             app:destination="@id/labelForFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_traversalOrderFragment"
+            app:destination="@id/traversalOrderFragment" />
     </fragment>
     <fragment
         android:id="@+id/importantForAccessibilityFragment"
@@ -50,4 +53,8 @@
         android:id="@+id/labelForFragment"
         android:name="uk.co.rwapp.a11ybox.LabelForFragment"
         android:label="Label For" />
+    <fragment
+        android:id="@+id/traversalOrderFragment"
+        android:name="uk.co.rwapp.a11ybox.TraversalOrderFragment"
+        android:label="Traversal Order" />
 </navigation>
