@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/contentDescriptionFragment"
+        android:name="uk.co.rwapp.a11ybox.ContentDescriptionFragment"
+        android:label="Content Description" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uk.co.rwapp.a11ybox.HomeFragment"
+        android:label="A11y Box">
+        <action
+            android:id="@+id/action_homeFragment_to_contentDescriptionFragment"
+            app:destination="@id/contentDescriptionFragment" />
+    </fragment>
+</navigation>

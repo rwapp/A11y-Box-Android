@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">A11y Box</string>
+    <string name="content_description_intro">Content Descriptions add an accessible text value to a control where the control either doesn\'t have a label, or the label doesn\'t work for accessibility.</string>
+    <string name="content_description_button_title">Go</string>
+    <string name="content_description_button_content_description">Submit</string>
+    <string name="content_description_title">Content Description</string>
+    <string name="content_description_example">The buttons below have the content description of Submit.</string>
+
+</resources>
