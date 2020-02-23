@@ -14,5 +14,12 @@
         <action
             android:id="@+id/action_homeFragment_to_contentDescriptionFragment"
             app:destination="@id/contentDescriptionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_importantForAccessibilityFragment"
+            app:destination="@id/importantForAccessibilityFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/importantForAccessibilityFragment"
+        android:name="uk.co.rwapp.a11ybox.ImportantForAccessibilityFragment"
+        android:label="Important For Accessibility" />
 </navigation>

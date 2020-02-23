@@ -26,6 +26,9 @@ class HomeFragment: Fragment() {
         content_description_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.contentDescriptionFragment, null))
 
+        important_for_accessibility_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.importantForAccessibilityFragment, null))
+
 
     }
 }
