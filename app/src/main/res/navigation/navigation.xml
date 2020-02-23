@@ -33,11 +33,11 @@
         android:label="Important For Accessibility" />
     <fragment
         android:id="@+id/hintFragment"
-        android:name="uk.co.rwapp.a11ybox.hintFragment"
+        android:name="uk.co.rwapp.a11ybox.HintFragment"
         android:label="Hint" />
     <fragment
         android:id="@+id/headingFragment"
-        android:name="uk.co.rwapp.a11ybox.headingFragment"
+        android:name="uk.co.rwapp.a11ybox.HeadingFragment"
         android:label="Heading" />
     <fragment
         android:id="@+id/minimumSizeFragment"
