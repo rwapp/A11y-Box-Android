@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minimum_size_intro" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minimum_size_example" />
+
+    <!--    Listing 4-8 -->
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/minimum_size_button_description"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/minimum_size_button_description"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+</LinearLayout>
