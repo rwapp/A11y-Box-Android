@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_homeFragment_to_minimumSizeFragment"
             app:destination="@id/minimumSizeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_labelForFragment"
+            app:destination="@id/labelForFragment" />
     </fragment>
     <fragment
         android:id="@+id/importantForAccessibilityFragment"
@@ -43,4 +46,8 @@
         android:id="@+id/minimumSizeFragment"
         android:name="uk.co.rwapp.a11ybox.MinimumSizeFragment"
         android:label="Minimum Size" />
+    <fragment
+        android:id="@+id/labelForFragment"
+        android:name="uk.co.rwapp.a11ybox.LabelForFragment"
+        android:label="Label For" />
 </navigation>
