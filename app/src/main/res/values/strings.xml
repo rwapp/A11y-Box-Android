@@ -24,5 +24,12 @@
     <string name="label_for_name">Name</string>
     <string name="label_for_email">Email</string>
     <string name="label_for_button">Label For</string>
+    <string name="traversal_button_1">Button 1</string>
+    <string name="traversal_button_2">Button 2</string>
+    <string name="traversal_button_3">Button 3</string>
+    <string name="traversal_button_4">Button 4</string>
+    <string name="traversal_button_5">Button 5</string>
+    <string name="traversal_button_6">Button 6</string>
+    <string name="traversal_order_title">Traversal Order</string>
 
 </resources>
