@@ -9,5 +9,9 @@
     <string name="important_example">The buttons below aren\'t visible to TalkBack.</string>
     <string name="important_button_title">Go</string>
     <string name="important_for_accessibility_title">Important For Accessibility</string>
+    <string name="hint_button">Send</string>
+    <string name="hint_button_hint">Sends your message.</string>
+    <string name="hint_intro">Hints add extra context to a control.</string>
+    <string name="hint_title">Hint</string>
 
 </resources>

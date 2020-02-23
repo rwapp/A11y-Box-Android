@@ -17,9 +17,16 @@
         <action
             android:id="@+id/action_homeFragment_to_importantForAccessibilityFragment"
             app:destination="@id/importantForAccessibilityFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hintFragment"
+            app:destination="@id/hintFragment" />
     </fragment>
     <fragment
         android:id="@+id/importantForAccessibilityFragment"
         android:name="uk.co.rwapp.a11ybox.ImportantForAccessibilityFragment"
         android:label="Important For Accessibility" />
+    <fragment
+        android:id="@+id/hintFragment"
+        android:name="uk.co.rwapp.a11ybox.hintFragment"
+        android:label="Hint" />
 </navigation>

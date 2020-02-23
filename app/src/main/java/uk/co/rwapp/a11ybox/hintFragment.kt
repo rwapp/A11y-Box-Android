@@ -5,22 +5,22 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.fragment_important.*
+import kotlinx.android.synthetic.main.fragment_hint.*
 
-class ImportantForAccessibilityFragment: Fragment() {
+class hintFragment: Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_important, container, false)
+        return inflater.inflate(R.layout.fragment_hint, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Listing 4-4
-        hiddenButton.importantForAccessibility = View.IMPORTANT_FOR_ACCESSIBILITY_NO
+        // Listing 4-6
+        hintButton.hint = getString(R.string.hint_button_hint)
     }
 }
