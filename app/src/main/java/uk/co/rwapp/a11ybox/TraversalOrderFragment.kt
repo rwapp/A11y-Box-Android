@@ -20,6 +20,7 @@ class TraversalOrderFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // Listing 4-13
         traversal_order_6.accessibilityTraversalAfter = traversal_order_5.id
         traversal_order_5.accessibilityTraversalAfter = traversal_order_4.id
 
