@@ -32,4 +32,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/minimum_size_title" />
+
+    <Button
+        android:id="@+id/label_for_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_for_button" />
+
 </LinearLayout>
