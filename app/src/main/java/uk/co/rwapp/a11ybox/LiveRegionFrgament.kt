@@ -37,5 +37,11 @@ class LiveRegionFrgament: Fragment() {
 
             scoreText2.text = "Score: $score2 points"
         }
+
+        announceButton.setOnClickListener {
+
+//            Listing 5-2
+            view.announceForAccessibility("New message received.")
+        }
     }
 }

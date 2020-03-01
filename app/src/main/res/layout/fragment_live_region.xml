@@ -7,7 +7,7 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Live regions are areas of the screen that are announced by TalkBack whenever the content changes, without affecting focus."
+        android:text="@string/live_regions_are_areas_of_the_screen_that_are_announced_by_talkback_whenever_the_content_changes_without_affecting_focus"
         android:padding="8dp"/>
 
     <Button
@@ -16,14 +16,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:padding="8dp"
-        android:text="Press to change the score" />
+        android:text="@string/press_to_change_the_score" />
 
 <!--    Listing 5-3 -->
     <TextView
         android:id="@+id/scoreText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="score: 0 points"
+        android:text="@string/score_0_points"
         android:padding="8dp"
         android:accessibilityLiveRegion="polite" />
 
@@ -31,7 +31,7 @@
         android:id="@+id/updateScoreButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Press to change the score"
+        android:text="@string/press_to_change_the_score"
         android:layout_margin="8dp"
         android:padding="8dp"/>
 
@@ -39,6 +39,21 @@
         android:id="@+id/scoreText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Score: 0 points"
+        android:text="@string/score_0_points"
         android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/another_way_of_informing_you_user_of_content_changes_without_changing_focus_is_using_an_announcement" />
+
+    <Button
+        android:id="@+id/announceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/press_for_an_announcement" />
 </LinearLayout>
