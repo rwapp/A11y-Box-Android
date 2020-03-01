@@ -5,6 +5,7 @@
 
 <!--    Listing 4-22 -->
     <LinearLayout
+        android:id="@+id/parentLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -15,19 +16,26 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+<!--            Listing 5-5 -->
+<!--            Listing 5-6 -->
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Heading 1" />
+                android:text="Heading 1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Detail 1" />
+                android:text="Detail 1"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="italic" />
         </LinearLayout>
 
         <!--        Listing 4-24 -->
@@ -42,14 +50,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Heading 2" />
+                android:text="Heading 2"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Detail 2" />
+                android:text="Detail 2"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,14 +75,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Heading 3" />
+                android:text="Heading 3"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Detail 3" />
+                android:text="Detail 3"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

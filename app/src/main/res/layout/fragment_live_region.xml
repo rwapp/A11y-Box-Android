@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Live regions are areas of the screen that are announced by TalkBack whenever the content changes, without affecting focus."
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/updateScoreButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="Press to change the score" />
+
+<!--    Listing 5-3 -->
+    <TextView
+        android:id="@+id/scoreText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="score: 0 points"
+        android:padding="8dp"
+        android:accessibilityLiveRegion="polite" />
+
+    <Button
+        android:id="@+id/updateScoreButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press to change the score"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/scoreText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0 points"
+        android:padding="8dp"/>
+</LinearLayout>

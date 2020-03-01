@@ -59,5 +59,8 @@
     <string name="explore_by_touch_enabled">Explore by touch is currently enabled.</string>
     <string name="explore_by_touch_disabled">Explore by touch is currently disabled.</string>
     <string name="none">none</string>
+    <string name="semantic_view_title">Semantic view</string>
+    <string name="accessibility_services_title">Accessibility Services</string>
+    <string name="live_region_title">Live Region</string>
 
 </resources>

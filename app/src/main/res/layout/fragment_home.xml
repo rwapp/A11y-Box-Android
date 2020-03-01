@@ -56,12 +56,18 @@
         android:id="@+id/semantic_view_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Semantic view" />
+        android:text="@string/semantic_view_title" />
 
     <Button
         android:id="@+id/accessibility_services_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Accessibility Services" />
+        android:text="@string/accessibility_services_title" />
+
+    <Button
+        android:id="@+id/live_region_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live_region_title" />
 
 </LinearLayout>
