@@ -45,5 +45,9 @@ class HomeFragment: Fragment() {
         keyboard_focus_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.keyboardFocusOrderFragment, null))
 
+        semantic_view_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.semanticViewFragment, null))
+
+
     }
 }
