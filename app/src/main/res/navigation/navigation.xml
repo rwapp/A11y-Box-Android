@@ -73,4 +73,8 @@
         android:id="@+id/liveRegionFragment"
         android:name="uk.co.rwapp.a11ybox.LiveRegionFrgament"
         android:label="Live Region" />
+    <fragment
+        android:id="@+id/removeAnimationsFragment"
+        android:name="uk.co.rwapp.a11ybox.RemoveAnimationsFragment"
+        android:label="Remove Animations" />
 </navigation>
