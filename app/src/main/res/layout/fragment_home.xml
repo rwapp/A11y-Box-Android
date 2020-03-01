@@ -70,4 +70,11 @@
         android:layout_height="wrap_content"
         android:text="@string/live_region_title" />
 
+    <Button
+        android:id="@+id/remove_animations_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_animations_title" />
+
+
 </LinearLayout>

@@ -54,5 +54,8 @@ class HomeFragment: Fragment() {
         live_region_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.liveRegionFragment, null))
 
+        remove_animations_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.removeAnimationsFragment, null))
+
     }
 }
