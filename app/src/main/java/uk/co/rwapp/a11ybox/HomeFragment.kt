@@ -51,6 +51,9 @@ class HomeFragment: Fragment() {
         accessibility_services_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.accessibilityServicesFragment, null))
 
+        live_region_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.liveRegionFragment, null))
+
         remove_animations_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.removeAnimationsFragment, null))
 
