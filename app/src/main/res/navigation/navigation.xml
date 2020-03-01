@@ -57,4 +57,8 @@
         android:id="@+id/traversalOrderFragment"
         android:name="uk.co.rwapp.a11ybox.TraversalOrderFragment"
         android:label="Traversal Order" />
+    <fragment
+        android:id="@+id/keyboardFocusOrderFragment"
+        android:name="uk.co.rwapp.a11ybox.DirectionalControlFragment"
+        android:label="Keyboard Directional Control" />
 </navigation>

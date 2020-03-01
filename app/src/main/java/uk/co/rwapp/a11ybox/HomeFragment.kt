@@ -42,6 +42,8 @@ class HomeFragment: Fragment() {
         traversal_order_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.traversalOrderFragment, null))
 
+        keyboard_focus_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.keyboardFocusOrderFragment, null))
 
     }
 }

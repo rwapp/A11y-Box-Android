@@ -6,6 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+<!--        Listing 4-16 -->
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
     </style>
 
     <style name="ThemeOverlay.MaterialComponents.Dark.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

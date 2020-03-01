@@ -31,5 +31,26 @@
     <string name="traversal_button_5">Button 5</string>
     <string name="traversal_button_6">Button 6</string>
     <string name="traversal_order_title">Traversal Order</string>
+    <string name="keyboard_focus_order">Keyboard Focus Order</string>
+    <string name="_16">16</string>
+    <string name="_17">17</string>
+    <string name="_18">18</string>
+    <string name="_15">15</string>
+    <string name="_14">14</string>
+    <string name="_13">13</string>
+    <string name="_12">12</string>
+    <string name="_11">11</string>
+    <string name="_10">10</string>
+    <string name="order_set_in_code">Order set in code</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="order_set_in_xml">Order set in XML</string>
 
 </resources>
