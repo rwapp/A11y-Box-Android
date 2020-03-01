@@ -66,7 +66,11 @@
         android:name="uk.co.rwapp.a11ybox.SemanticViewFragment"
         android:label="Semantic View" />
     <fragment
-        android:id="@+id/accessibilityServices"
+        android:id="@+id/accessibilityServicesFragment"
         android:name="uk.co.rwapp.a11ybox.AccessibilityServicesFragment"
         android:label="Accessibility Services" />
+    <fragment
+        android:id="@+id/liveRegionFragment"
+        android:name="uk.co.rwapp.a11ybox.LiveRegionFrgament"
+        android:label="Live Region" />
 </navigation>

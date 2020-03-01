@@ -49,7 +49,10 @@ class HomeFragment: Fragment() {
             R.id.semanticViewFragment, null))
 
         accessibility_services_button.setOnClickListener(Navigation.createNavigateOnClickListener(
-            R.id.accessibilityServices, null))
+            R.id.accessibilityServicesFragment, null))
+
+        live_region_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.liveRegionFragment, null))
 
     }
 }
