@@ -20,7 +20,8 @@ class HintFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Listing 4-6
+//        Listing 4-6
+//        Listing 5-16
         hintButton.hint = getString(R.string.hint_button_hint)
     }
 }

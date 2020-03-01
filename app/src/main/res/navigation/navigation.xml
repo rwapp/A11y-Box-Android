@@ -65,4 +65,8 @@
         android:id="@+id/semanticViewFragment"
         android:name="uk.co.rwapp.a11ybox.SemanticViewFragment"
         android:label="Semantic View" />
+    <fragment
+        android:id="@+id/accessibilityServices"
+        android:name="uk.co.rwapp.a11ybox.AccessibilityServicesFragment"
+        android:label="Accessibility Services" />
 </navigation>
