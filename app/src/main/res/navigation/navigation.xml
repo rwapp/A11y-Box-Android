@@ -61,4 +61,8 @@
         android:id="@+id/keyboardFocusOrderFragment"
         android:name="uk.co.rwapp.a11ybox.DirectionalControlFragment"
         android:label="Keyboard Directional Control" />
+    <fragment
+        android:id="@+id/customControlFragment"
+        android:name="uk.co.rwapp.a11ybox.CustomControlFragment"
+        android:label="Custom Control" />
 </navigation>

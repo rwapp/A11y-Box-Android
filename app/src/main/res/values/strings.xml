@@ -52,5 +52,8 @@
     <string name="_2">2</string>
     <string name="_1">1</string>
     <string name="order_set_in_xml">Order set in XML</string>
+    <string name="custom_control_title">Custom Control</string>
+    <string name="this_custom_view_has_accessibility_actions_encoded_these_will_be_read_when_focused_by_talkback">This custom view has accessibility actions encoded, these will be read when focused by TalkBack.</string>
+    <string name="custom_view">Custom View</string>
 
 </resources>
