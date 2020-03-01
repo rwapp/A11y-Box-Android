@@ -36,11 +36,11 @@ class CaptionsFragment: Fragment() {
 
     internal fun captionStatus() {
 
-        //        Listing 5-11
+//        Listing 5-11
         val subtitlesEN = resources.openRawResource(R.raw.subs_en_vtt)
         videoView.addSubtitleSource(subtitlesEN, MediaFormat.createSubtitleFormat("text/vtt", ENGLISH.language))
 
-        // Listing 5-12
+//        Listing 5-12
         val captioningManager = activity!!.getSystemService(Context.CAPTIONING_SERVICE) as CaptioningManager
         val captionsEnabled = captioningManager.isEnabled
         val captionStyle = captioningManager.userStyle
