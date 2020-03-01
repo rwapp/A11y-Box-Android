@@ -8,6 +8,7 @@
     android:theme="@style/AppTheme.NoActionBar"
     tools:context=".MainActivity">
 
+<!--    Listing 5-8 -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"

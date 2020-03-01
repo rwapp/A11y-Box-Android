@@ -1,4 +1,6 @@
 <resources>
+
+<!--    Listing 5-14 -->
     <string name="app_name">A11y Box</string>
     <string name="content_description_intro">Content Descriptions add an accessible text value to a control where the control either doesn\'t have a label, or the label doesn\'t work for accessibility.</string>
     <string name="content_description_button_title">Go</string>
@@ -52,5 +54,10 @@
     <string name="_2">2</string>
     <string name="_1">1</string>
     <string name="order_set_in_xml">Order set in XML</string>
+    <string name="accessibility_enabled">Accessibility services are currently enabled.</string>
+    <string name="accessibility_disabled">Accessibility services are currently disabled.</string>
+    <string name="explore_by_touch_enabled">Explore by touch is currently enabled.</string>
+    <string name="explore_by_touch_disabled">Explore by touch is currently disabled.</string>
+    <string name="none">none</string>
 
 </resources>
