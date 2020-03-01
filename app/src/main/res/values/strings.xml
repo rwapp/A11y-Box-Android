@@ -70,5 +70,8 @@
     <string name="animations_enabled">Animations are currently enabled.</string>
     <string name="animations_disabled">Animations are currently disabled.</string>
     <string name="remove_animations_title">Remove animations</string>
+    <string name="captions_are_supported_natively_with_videoview_elements_just_provide_a_subtitles_file_for_other_voice_audio_you_should_listen_to_the_user_s_settings_for_how_and_when_to_display_captions">Captions are supported natively with VideoView elements, just provide a subtitles file. For other voice audio you should listen to the user\'s settings for how and when to display captions.</string>
+    <string name="captions_enabled">Captions are currently enabled.</string>
+    <string name="captions_disabled">Captions are currently enabled.</string>
 
 </resources>

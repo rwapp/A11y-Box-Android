@@ -77,4 +77,8 @@
         android:id="@+id/removeAnimationsFragment"
         android:name="uk.co.rwapp.a11ybox.RemoveAnimationsFragment"
         android:label="Remove Animations" />
+    <fragment
+        android:id="@+id/captionsFragment"
+        android:name="uk.co.rwapp.a11ybox.CaptionsFragment"
+        android:label="Captions" />
 </navigation>
