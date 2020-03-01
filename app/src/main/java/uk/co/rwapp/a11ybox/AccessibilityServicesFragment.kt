@@ -24,7 +24,7 @@ class AccessibilityServicesFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 //        Listing 5-17
-        val a11yManager = getActivity()!!.getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager
+        val a11yManager = activity!!.getSystemService(Context.ACCESSIBILITY_SERVICE) as AccessibilityManager
 
 //        Listing 5-18
         val installedServices = a11yManager.installedAccessibilityServiceList

@@ -57,5 +57,8 @@ class HomeFragment: Fragment() {
         remove_animations_button.setOnClickListener(Navigation.createNavigateOnClickListener(
             R.id.removeAnimationsFragment, null))
 
+        captions_button.setOnClickListener(Navigation.createNavigateOnClickListener(
+            R.id.captionsFragment, null))
+
     }
 }
